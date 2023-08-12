@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "620488856961",
+    "project_id": "onemm-e2310",
+    "storage_bucket": "onemm-e2310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620488856961:android:3fd874818188bbb1024480",
+        "android_client_info": {
+          "package_name": "com.hee.onemm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620488856961-k7s37b1698td1uucsm08e1bfe3h59ufe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hee.onemm",
+            "certificate_hash": "0d803e44ac500d0952c46c6ed39a1824480d3960"
+          }
+        },
+        {
+          "client_id": "620488856961-rvjt8su3lkrdjmoo2epp5il7lno0psqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hee.onemm",
+            "certificate_hash": "8a907c367b1fc226ff46175cf3ad793f97a2c20a"
+          }
+        },
+        {
+          "client_id": "620488856961-mr40g10sla4jdrtptq4mba881220aamf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA97BF-8p9D-x3HLx3swRoWZtiF1NBFTa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620488856961-mr40g10sla4jdrtptq4mba881220aamf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "620488856961-7a34vseqi2qg8hdktmq84a87dubhbbl9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.synstin.initial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

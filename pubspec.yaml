@@ -1,0 +1,86 @@
+name: onemm
+description: onemm
+publish_to: 'none'
+version: 2.0.1+23
+
+environment:
+  sdk: ">=2.17.5 <3.0.3"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  line_icons: ^2.0.1
+  flutter_native_splash: ^2.2.4
+  lottie: ^2.3.2
+  dart_date: ^1.1.1
+  collection: ^1.16.0
+  dartx: ^1.1.0
+  http: ^0.13.4
+  logger: ^1.1.0
+  sentry_flutter: ^7.6.3
+  flutter_dotenv: ^5.0.2
+  google_sign_in: ^6.1.3
+  shared_preferences: ^2.0.15
+  firebase_core: ^2.13.1
+  firebase_auth: ^4.6.2
+  flutter_screenutil: ^5.7.0
+  zoom_tap_animation: ^1.1.0
+  url_launcher: ^6.1.11
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^0.8.7+5
+  dio: ^5.1.2
+  connectivity_plus: ^3.0.6
+  firebase_remote_config: ^4.2.4
+  firebase_analytics: ^10.4.4
+  package_info_plus: ^1.4.3+1
+  platform: ^3.1.0
+  upgrader: ^4.8.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  json_serializable: ^6.6.1
+  build_runner: ^2.3.3
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  ios: true
+  android: "launcher_icon"
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "assets/images/background.png"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/splash/
+    - assets/images/
+    - assets/icons/
+    - assets/walk/
+
+  fonts:
+    - family: Cafe24
+      fonts:
+        - asset: assets/fonts/Cafe24Ssurround.ttf
+          weight: 500
+        - asset: assets/fonts/Cafe24SsurroundAir.ttf
+          weight: 500
+    - family: spoqa
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/SpoqaHanSansNeo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpoqaHanSansNeo-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/SpoqaHanSansNeo-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/SpoqaHanSansNeo-Bold.ttf
+          weight: 900
